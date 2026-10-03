@@ -1,0 +1,69 @@
+{
+  "brand": { "name": "Body Planet", "location": "Latina Scalo" },
+  "nav": { "gym": "La palestra", "courses": "Corsi", "hours": "Orari", "contact": "Contatti" },
+  "hero": {
+    "eyebrow": "Palestra e centro fitness",
+    "title": "BODY PLANET È LA TUA PALESTRA A LATINA SCALO PERFETTA PER TE!",
+    "description": "Allenamento, energia e movimento in un unico luogo. Scopri Body Planet e trova il percorso più adatto a te.",
+    "primaryCta": "Contattaci",
+    "secondaryCta": "Scopri i corsi",
+    "note": "Viale della Stazione, 285 · Latina Scalo"
+  },
+  "gym": {
+    "eyebrow": "L'ambiente",
+    "title": "Un luogo pensato per il tuo allenamento.",
+    "description": "Dalla sala isotonica ai corsi guidati: puoi scegliere come muoverti, con la libertà di costruire la tua routine.",
+    "items": ["Sala isotonica", "Corsi fitness", "Indoor cycling", "Arti marziali"]
+  },
+  "courses": {
+    "eyebrow": "Allenati come vuoi",
+    "title": "Corsi per ogni ritmo.",
+    "description": "Esplora le attività disponibili e trova il modo giusto per dare energia alla tua settimana.",
+    "groups": {
+      "fitness": "Fitness & conditioning",
+      "cardio": "Cardio",
+      "wellness": "Wellness & mobility",
+      "martialArts": "Arti marziali"
+    },
+    "list": [
+      { "name": "Cross Training", "group": "fitness", "description": "Esercizi funzionali variati per un allenamento completo." },
+      { "name": "Allenamento Funzionale", "group": "fitness", "description": "Movimenti e lavoro sul corpo per la tua preparazione fisica." },
+      { "name": "Full Body Workout", "group": "fitness", "description": "Una sessione che coinvolge più gruppi muscolari." },
+      { "name": "Allenamento Femminile", "group": "fitness", "description": "Un'attività di fitness pensata per le donne." },
+      { "name": "Hybrid Lab", "group": "fitness", "description": "Un'attività Body Planet da scoprire in palestra." },
+      { "name": "Fit-Boxe", "group": "fitness", "description": "Movimenti ispirati alla boxe in chiave fitness." },
+      { "name": "Indoor Cycling", "group": "cardio", "description": "Allenamento di indoor cycling guidato." },
+      { "name": "Pilates con Piccoli Attrezzi", "group": "wellness", "description": "Pilates con l'integrazione di piccoli attrezzi." },
+      { "name": "Ginnastica Posturale", "group": "wellness", "description": "Esercizi dedicati alla consapevolezza del movimento." },
+      { "name": "Fit Ball Gym", "group": "wellness", "description": "Allenamento con fit ball e lavoro sul corpo." },
+      { "name": "Karate", "group": "martialArts", "description": "Allenamento e pratica del karate." },
+      { "name": "Kickboxing", "group": "martialArts", "description": "Allenamento di kickboxing." },
+      { "name": "Jeet Kune Do", "group": "martialArts", "description": "Allenamento di Jeet Kune Do." }
+    ]
+  },
+  "schedule": {
+    "eyebrow": "Organizza il tuo tempo",
+    "title": "Gli orari, sempre a portata di mano.",
+    "description": "Consulta il programma aggiornato dei corsi direttamente dai canali Body Planet.",
+    "cta": "Richiedi il programma",
+    "hoursTitle": "Orari palestra"
+  },
+  "app": {
+    "eyebrow": "Per chi si allena con noi",
+    "title": "Body Planet sempre con te.",
+    "description": "Usa l'app Body Planet per accedere ai servizi legati al tuo abbonamento e alle attività della palestra.",
+    "features": ["Prenota i corsi", "Consulta gli orari", "Gestisci il tuo abbonamento", "Rimani aggiornato"]
+  },
+  "contact": {
+    "eyebrow": "Passa a trovarci",
+    "title": "Cominciamo da qui.",
+    "description": "Scrivici o raggiungici a Latina Scalo: saremo felici di darti le informazioni che cerchi.",
+    "whatsapp": "Scrivici su WhatsApp",
+    "phoneLabel": "Telefono",
+    "emailLabel": "Email",
+    "addressLabel": "Dove siamo",
+    "directions": "Indicazioni stradali"
+  },
+  "footer": { "legal": "BODY PLANET SOCIETA' SPORTIVA DILETTANTISTICA A RESPONSABILITA' LIMITATA", "vat": "P. IVA 03304580594", "copyright": "© 2026 Body Planet. Tutti i diritti riservati." },
+  "accessibility": { "openMenu": "Apri il menu", "closeMenu": "Chiudi il menu", "decorativeMark": "" }
+}
