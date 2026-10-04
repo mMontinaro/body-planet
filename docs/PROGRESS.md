@@ -75,3 +75,25 @@ Append entries using this structure:
 Omit empty subsections when they provide no useful information.
 
 Do not alter previous entries to correct later discoveries. Record corrections or changed understanding in a new progress entry.
+
+## 2026-10-04
+
+### Changes
+- Initialized the Body Planet React/Vite marketing site with responsive sections, localization, and verified business contact data.
+- Added reusable typed course data and `CourseCard` rendering.
+- Replaced the app section with a local-image gallery carousel and added the hero image and Body Planet logo usage.
+- Added responsive hero-grid gradients, social links configuration for Facebook and Instagram, and related footer links.
+- Added the requested pending tasks to `docs/TODO.md`.
+
+### Project State
+- The production build passes with `npm run build`.
+- The site is static and uses local approved image assets without third-party embeds.
+
+### Pending TODOs
+- Make the third hero-grid span completely white.
+- Add logos for Facebook and Instagram social links.
+- Add download buttons for the PDF documents.
+- Further adapt the site for mobile devices.
+
+### Blockers / Notes
+- No known blockers; pending items remain subject to implementation and user testing.
