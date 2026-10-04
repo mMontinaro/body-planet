@@ -2,7 +2,11 @@ export const siteLinks = {
   whatsapp: 'https://wa.me/393474413383',
   phone: 'tel:+393474413383',
   email: 'mailto:bodyplanetcentrofitness@gmail.com',
-  maps: 'https://www.google.com/maps/search/?api=1&query=Body+Planet+Viale+della+Stazione+285+Latina+Scalo'
+  maps: 'https://www.google.com/maps/search/?api=1&query=Body+Planet+Viale+della+Stazione+285+Latina+Scalo',
+  social: {
+    facebook: 'https://www.facebook.com/share/1Dyo5dgxrb/',
+    instagram: 'https://www.instagram.com/bodyplanet_ssd_latina'
+  }
 } as const
 
 export const openingHours = [

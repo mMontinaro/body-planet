@@ -1,68 +1,114 @@
 {
-  "brand": { "name": "Body Planet", "location": "Latina Scalo" },
+  "brand": { "name": "Body Planet", "location": "Latina Scalo", "logoAlt": "Logo Body Planet" },
   "nav": { "gym": "La palestra", "courses": "Corsi", "hours": "Orari", "contact": "Contatti" },
   "hero": {
     "eyebrow": "Palestra e centro fitness",
-    "title": "BODY PLANET È LA TUA PALESTRA A LATINA SCALO PERFETTA PER TE!",
-    "description": "Allenamento, energia e movimento in un unico luogo. Scopri Body Planet e trova il percorso più adatto a te.",
+    "title": "Body Planet",
+    "description": "La Body Planet SSD a RL opera nel settore del fitness con l’obiettivo di offrire un ambiente accogliente, professionale e completo, dove allenamento e benessere si fondono per aiutarti a raggiungere i tuoi obiettivi.",
     "primaryCta": "Contattaci",
     "secondaryCta": "Scopri i corsi",
     "note": "Viale della Stazione, 285 · Latina Scalo"
   },
   "gym": {
     "eyebrow": "L'ambiente",
-    "title": "Un luogo pensato per il tuo allenamento.",
-    "description": "Dalla sala isotonica ai corsi guidati: puoi scegliere come muoverti, con la libertà di costruire la tua routine.",
+    "title": "Allenamenti per ogni esigenza.",
+    "description": "Body Planet è una palestra che metta al centro la persona, il suo benessere e la sua crescita, fisica e mentale.",
+    "description2": "Body Planet è la tua palestra a Latina Scalo perfetta per te!",
     "items": ["Sala isotonica", "Corsi fitness", "Indoor cycling", "Arti marziali"]
   },
   "courses": {
     "eyebrow": "Allenati come vuoi",
-    "title": "Corsi per ogni ritmo.",
-    "description": "Esplora le attività disponibili e trova il modo giusto per dare energia alla tua settimana.",
-    "groups": {
-      "fitness": "Fitness & conditioning",
-      "cardio": "Cardio",
-      "wellness": "Wellness & mobility",
-      "martialArts": "Arti marziali"
+    "title": "I nostri corsi fitness",
+    "description": "Alla Body Planet offriamo una sala isotonica completamente attrezzata",
+    "crossTraining": {
+      "name": "Cross Training",
+      "description": "Allenamento ad alta intensità che combina forza, resistenza e agilità per migliorare la forma fisica completa."
     },
-    "list": [
-      { "name": "Cross Training", "group": "fitness", "description": "Esercizi funzionali variati per un allenamento completo." },
-      { "name": "Allenamento Funzionale", "group": "fitness", "description": "Movimenti e lavoro sul corpo per la tua preparazione fisica." },
-      { "name": "Full Body Workout", "group": "fitness", "description": "Una sessione che coinvolge più gruppi muscolari." },
-      { "name": "Allenamento Femminile", "group": "fitness", "description": "Un'attività di fitness pensata per le donne." },
-      { "name": "Hybrid Lab", "group": "fitness", "description": "Un'attività Body Planet da scoprire in palestra." },
-      { "name": "Fit-Boxe", "group": "fitness", "description": "Movimenti ispirati alla boxe in chiave fitness." },
-      { "name": "Indoor Cycling", "group": "cardio", "description": "Allenamento di indoor cycling guidato." },
-      { "name": "Pilates con Piccoli Attrezzi", "group": "wellness", "description": "Pilates con l'integrazione di piccoli attrezzi." },
-      { "name": "Ginnastica Posturale", "group": "wellness", "description": "Esercizi dedicati alla consapevolezza del movimento." },
-      { "name": "Fit Ball Gym", "group": "wellness", "description": "Allenamento con fit ball e lavoro sul corpo." },
-      { "name": "Karate", "group": "martialArts", "description": "Allenamento e pratica del karate." },
-      { "name": "Kickboxing", "group": "martialArts", "description": "Allenamento di kickboxing." },
-      { "name": "Jeet Kune Do", "group": "martialArts", "description": "Allenamento di Jeet Kune Do." }
-    ]
+    "fitBoxe": {
+      "name": "Fit-Boxe",
+      "description": "Allenamento energico che unisce tecniche di boxe al ritmo della musica per migliorare tono e resistenza."
+    },
+    "functionalTraining": {
+      "name": "Allenamento Funzionale",
+      "description": "Esercizi mirati a migliorare i movimenti quotidiani, con focus su equilibrio, coordinazione e tono muscolare."
+    },
+    "postural": {
+      "name": "Ginnastica Posturale",
+      "description": "Esercizi dolci per correggere la postura, alleviare tensioni e migliorare l’equilibrio del corpo."
+    },
+    "pilates": {
+      "name": "Pilates con Piccoli Attrezzi",
+      "description": "Lavoro mirato su postura, core e respirazione, arricchito dall’uso di soft ball, ring e elastici."
+    },
+    "fitBall": {
+      "name": "Fit Ball Gym",
+      "description": "Allenamento su grandi palloni per rinforzare il core, migliorare la stabilità e tonificare in modo sicuro."
+    },
+    "fullBodyWorkout": {
+      "name": "Full Body Workout",
+      "description": "Allenamento completo che coinvolge tutti i gruppi muscolari, ideale per tonificare e bruciare calorie."
+    },
+    "karate": {
+      "name": "Karate",
+      "description": "Disciplina marziale che sviluppa forza, autocontrollo e sicurezza attraverso tecniche tradizionali."
+    },
+    "femaleTraining": {
+      "name": "Allenamento Femminile",
+      "description": "Workout pensato per le esigenze del corpo femminile, con esercizi per tonificare glutei, gambe e addome."
+    },
+    "kickboxing": {
+      "name": "Kickboxing",
+      "description": "Sport da combattimento completo che unisce calci e pugni per aumentare forza, agilità e resistenza."
+    },
+    "indoorCycling": {
+      "name": "Indoor Cycling",
+      "description": "Pedalata su bike stazionaria a ritmo di musica, perfetta per migliorare resistenza e bruciare grassi."
+    },
+    "jeetKuneDo": {
+      "name": "Jeet Kune Do",
+      "description": "Arte marziale moderna e fluida, ideata da Bruce Lee, focalizzata sull’efficacia e sull’adattabilità."
+    }
   },
   "schedule": {
     "eyebrow": "Organizza il tuo tempo",
-    "title": "Gli orari, sempre a portata di mano.",
+    "title": "I nostri orari",
     "description": "Consulta il programma aggiornato dei corsi direttamente dai canali Body Planet.",
     "cta": "Richiedi il programma",
     "hoursTitle": "Orari palestra"
   },
-  "app": {
-    "eyebrow": "Per chi si allena con noi",
-    "title": "Body Planet sempre con te.",
-    "description": "Usa l'app Body Planet per accedere ai servizi legati al tuo abbonamento e alle attività della palestra.",
-    "features": ["Prenota i corsi", "Consulta gli orari", "Gestisci il tuo abbonamento", "Rimani aggiornato"]
+  "heroImage": {
+    "alt": "Programma delle attività Body Planet"
+  },
+  "gallery": {
+    "eyebrow": "Gli spazi Body Planet",
+    "title": "Un ambiente da vivere.",
+    "description": "Scopri alcuni degli spazi che puoi trovare da Body Planet.",
+    "imageAlt": {
+      "salottino": "Salottino interno di Body Planet",
+      "cardio": "Sala cardio di Body Planet",
+      "cycling": "Area indoor cycling di Body Planet",
+      "machines": "Macchine per l'allenamento di Body Planet",
+      "outside": "Esterno della sede Body Planet",
+      "weights": "Sala pesi di Body Planet"
+    },
+    "previous": "Immagine precedente",
+    "next": "Immagine successiva",
+    "position": "Immagine"
   },
   "contact": {
     "eyebrow": "Passa a trovarci",
-    "title": "Cominciamo da qui.",
+    "title": "Scopri una nuova versione di te!",
     "description": "Scrivici o raggiungici a Latina Scalo: saremo felici di darti le informazioni che cerchi.",
     "whatsapp": "Scrivici su WhatsApp",
     "phoneLabel": "Telefono",
     "emailLabel": "Email",
     "addressLabel": "Dove siamo",
     "directions": "Indicazioni stradali"
+  },
+  "social": {
+    "title": "Seguici sui social",
+    "facebook": "Facebook",
+    "instagram": "Instagram"
   },
   "footer": { "legal": "BODY PLANET SOCIETA' SPORTIVA DILETTANTISTICA A RESPONSABILITA' LIMITATA", "vat": "P. IVA 03304580594", "copyright": "© 2026 Body Planet. Tutti i diritti riservati." },
   "accessibility": { "openMenu": "Apri il menu", "closeMenu": "Chiudi il menu", "decorativeMark": "" }

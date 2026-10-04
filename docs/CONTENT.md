@@ -140,9 +140,8 @@ The website should make it easy for a visitor to:
 4. Find current opening hours.
 5. Find the gym.
 6. Contact Body Planet.
-7. Discover the Body Planet mobile app.
-8. Understand how course reservations are currently handled.
-9. Reach Body Planet's external platforms where appropriate.
+7. Understand how course reservations are currently handled.
+8. Reach Body Planet's external platforms where appropriate.
 
 The static website itself does not currently need to:
 
@@ -352,67 +351,7 @@ A structured HTML timetable should only be produced once current schedule data h
 
 ---
 
-# 10. Body Planet Mobile App
-
-Body Planet has a dedicated mobile application associated with its existing gym-management infrastructure.
-
-The application is published through **Zucchetti Hospitality**.
-
-Existing functionality associated with the app includes:
-
-- course reservations;
-- class/calendar information;
-- subscription management;
-- subscription renewal;
-- instalment/payment-related functionality;
-- gym news;
-- notifications.
-
-The website should therefore **not attempt to reproduce these systems for the initial static demo**.
-
----
-
-## App Section Purpose
-
-The website may include a dedicated section explaining that existing members can use the Body Planet app.
-
-Possible interface content:
-
-### Heading
-
-**Body Planet sempre con te**
-
-### Supporting text
-
-Use the Body Planet app to access services related to your membership and gym activities.
-
-### Potential feature labels
-
-- Prenota i corsi
-- Consulta gli orari
-- Gestisci il tuo abbonamento
-- Rimani aggiornato
-
-Exact functionality should match the currently available application before production release.
-
----
-
-## Store Links
-
-The application is available through mobile application stores.
-
-Store URLs should be stored centrally rather than repeated throughout components.
-
-Expected links:
-
-- Google Play
-- Apple App Store
-
-Verify both final URLs before production launch.
-
----
-
-# 11. Reviews
+# 10. Reviews
 
 The current Body Planet page includes customer reviews and links users toward Google reviews.
 
@@ -433,7 +372,7 @@ Do not:
 
 ---
 
-# 12. Gallery
+# 11. Gallery
 
 The existing site contains numerous photographs of:
 
@@ -461,7 +400,7 @@ Before production, obtain original high-resolution assets and permission from th
 
 ---
 
-# 13. Calls to Action
+# 12. Calls to Action
 
 The website should use a small number of consistent CTAs.
 
@@ -509,7 +448,7 @@ Prefer an external directions link for the initial static demo rather than autom
 
 ---
 
-# 14. External Services
+# 13. External Services
 
 Known or expected external destinations include:
 
@@ -546,23 +485,7 @@ An embedded map is not required for the initial implementation.
 
 ---
 
-## Google Play
-
-Purpose:
-
-Download/access the Body Planet Android application.
-
----
-
-## Apple App Store
-
-Purpose:
-
-Download/access the Body Planet iOS application.
-
----
-
-# 15. Newsletter
+# 14. Newsletter
 
 There is currently **no confirmed newsletter**.
 
@@ -577,7 +500,7 @@ A newsletter may be added later if the owner requests one and an appropriate mai
 
 ---
 
-# 16. Social Media
+# 15. Social Media
 
 Official social-media accounts have not yet been sufficiently confirmed for the project content source.
 
@@ -587,7 +510,7 @@ Avoid linking to accounts based only on similar names.
 
 ---
 
-# 17. Contact Form
+# 16. Contact Form
 
 A contact form is **not required** for the first static demo.
 
@@ -612,7 +535,7 @@ If the owner later requests a form, implement it as a separate feature.
 
 ---
 
-# 19. Legal Documents
+# 17. Legal Documents
 
 The existing website exposes at least:
 
@@ -634,7 +557,7 @@ Do not generate fake legal policies.
 
 ---
 
-# 21. Possible Page Metadata
+# 18. Possible Page Metadata
 
 The following is **draft website copy**, not an existing Body Planet statement.
 
@@ -654,7 +577,7 @@ This may be revised during the SEO phase.
 
 ---
 
-# 22. Suggested Website Sections
+# 19. Suggested Website Sections
 
 This represents the proposed content architecture.
 
@@ -678,7 +601,7 @@ The first version may remain a single-page website.
 
 ---
 
-# 23. Information Still Required
+# 20. Information Still Required
 
 The following data should eventually be requested from Body Planet.
 
@@ -755,7 +678,7 @@ Do not display placeholder prices.
 
 ---
 
-# 24. Explicit Content Rules for AI / Codex
+# 21. Explicit Content Rules for AI / Codex
 
 When implementing the website:
 
@@ -778,7 +701,7 @@ When implementing the website:
 
 ---
 
-# 25. Demo vs Production
+# 22. Demo vs Production
 
 ## Demo
 
@@ -821,7 +744,7 @@ Before production launch:
 
 ---
 
-# 26. Content Authority
+# 23. Content Authority
 
 If implementation code conflicts with this document regarding a business fact, **this document takes precedence** unless this document has subsequently been corrected using verified information.
 

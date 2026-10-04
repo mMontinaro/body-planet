@@ -17,8 +17,6 @@ The static demo may link to:
 - WhatsApp;
 - Google Maps;
 - Google Reviews;
-- Google Play;
-- Apple App Store;
 - verified social-media profiles.
 
 These should normally be standard outbound links.
@@ -59,14 +57,6 @@ The site may link users to:
 Prefer external Google links over review widgets.
 
 Do not fabricate or automatically scrape review content.
-
-## Google Play and App Store
-
-The site may link to the official Body Planet mobile application.
-
-Store links must be verified before production.
-
-Do not replicate app functionality unless explicitly added to project scope.
 
 ## Social Media
 

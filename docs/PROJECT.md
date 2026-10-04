@@ -17,7 +17,6 @@ Create a clear, modern, fast website that helps visitors:
 - find opening hours;
 - locate the gym;
 - contact Body Planet;
-- access the existing Body Planet app.
 
 ## Audience
 
@@ -37,7 +36,6 @@ The first version should include:
 - gym overview;
 - course presentation;
 - course schedule area;
-- mobile app promotion;
 - gallery;
 - reviews/social proof;
 - contact/location information;
