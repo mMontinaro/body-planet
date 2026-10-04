@@ -18,3 +18,10 @@ Do not assume that a TODO is complete because the implementation appears correct
 If implementation changes invalidate, supersede, or make a TODO unnecessary, do not modify or remove that TODO without explicit user approval.
 
 If the user explicitly asks to add, edit, remove, check off, or reorganize a TODO, permission is granted to modify `TODO.md` for that request.
+
+## Pending Tasks
+
+- Make the third hero-grid span completely white.
+- Add logos for Facebook and Instagram social links.
+- Add download buttons for the PDF documents.
+- Further adapt the site for mobile devices.
