@@ -9,7 +9,9 @@ function ContactSection() {
     <section id="contatti" className="section contact-section">
       <div className="container">
         <div className="contact-heading-row">
-          <SectionHeading eyebrow={copy.contact.eyebrow} title={copy.contact.title} description={copy.contact.description} />
+          <div className="mobile-description-banner">
+            <SectionHeading eyebrow={copy.contact.eyebrow} title={copy.contact.title} description={copy.contact.description} />
+          </div>
           <img className="brand-logo contact-logo" src={siteMedia.logo} alt={copy.brand.logoAlt} />
         </div>
 

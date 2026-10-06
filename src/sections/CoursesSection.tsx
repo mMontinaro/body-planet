@@ -8,17 +8,19 @@ function CoursesSection() {
   return (
     <section id="corsi" className="section section-tint">
       <div className="container">
-        <SectionHeading title={copy.courses.title} description={copy.courses.description} />
+        <div className="mobile-description-banner">
+          <SectionHeading title={copy.courses.title} description={copy.courses.description} />
         <div className="course-grid">
           {courses.map((course, index) => (
             <CourseCard
-              key={course.id}
-              course={course}
-              name={getLocalizedString(course.nameKey)}
-              description={getLocalizedString(course.descriptionKey)}
-              index={index}
+            key={course.id}
+            course={course}
+            name={getLocalizedString(course.nameKey)}
+            description={getLocalizedString(course.descriptionKey)}
+            index={index}
             />
           ))}
+          </div>
         </div>
       </div>
     </section>

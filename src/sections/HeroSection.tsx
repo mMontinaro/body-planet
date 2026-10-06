@@ -5,6 +5,7 @@ import { siteMedia } from '../data/media'
 import { heroSlides } from '../data/heroSlides'
 import HeroCarousel from '../components/HeroCarousel'
 import SocialLinks from '../components/SocialLinks'
+import { BsTelephone } from 'react-icons/bs'
 
 function HeroSection() {
   return (
@@ -34,7 +35,7 @@ function HeroSection() {
             <SocialLinks className="social-links-hero" links={siteLinks.social} labels={copy.social} />
 
             <a className="text-link hero-contact-link" href={siteLinks.whatsapp}>
-              {copy.hero.primaryCta}<MoveUpRight size={17} aria-hidden="true" />
+              <BsTelephone aria-hidden="true" size={17} />{copy.hero.primaryCta}<MoveUpRight size={17} aria-hidden="true" />
             </a>
           </div>
         </div>

@@ -12,9 +12,10 @@ function GymSection() {
           <span className="vertical-word">TRAINING</span>
         </div>
 
-        <div className="section-content">
-          <SectionHeading title={copy.gym.title} description={copy.gym.description} />
+        <div className="section-content mobile-description-banner">
+            <SectionHeading title={copy.gym.title} description={copy.gym.description} />
           <p className="section-description2">{copy.gym.description2}</p>
+
         </div>
       </div>
     </section>

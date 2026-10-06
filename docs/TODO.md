@@ -28,3 +28,5 @@ If the user explicitly asks to add, edit, remove, check off, or reorganize a TOD
 - [x] make the activity calendar section full width
 - [x] make title color primary
 - [x] change the landing page completely
+- [x] Fix mobile view by adding padding.
+- [x] Fix the header menu in mobile view.

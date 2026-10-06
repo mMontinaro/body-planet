@@ -7,9 +7,9 @@ function ScheduleSection() {
   return (
     <section id="orari" className="section section-dark schedule-section">
       <div className="container schedule-layout">
-        <div>
+        <div className="mobile-description-banner">
           <SectionHeading title={copy.schedule.title} description={copy.schedule.description} />
-          <a className="button" href={siteLinks.whatsapp}>
+          <a className="button full-width" href={siteLinks.whatsapp}>
             {copy.schedule.cta}<ArrowUpRight size={18} aria-hidden="true" />
           </a>
         </div>

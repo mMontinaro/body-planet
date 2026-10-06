@@ -189,7 +189,11 @@ The current day's entry may be updated according to the rules above.
 
 ### Changes
 - Verified the Facebook and Instagram social logos are implemented in the reusable social-links component and checked off the final TODO.
-- Ran the production build successfully.
+- Added mobile footer side padding.
+- Expanded the schedule section's inner content to use its available width.
+- Added horizontal spacing around the hero document download buttons.
+- Checked off the remaining mobile padding and header menu TODOs at the user's request.
+- Ran the production build successfully with `npm run build`.
 
 ### Project State
 - The static Body Planet site builds successfully with `npm run build`.
@@ -202,20 +206,9 @@ The current day's entry may be updated according to the rules above.
 - Further adapt the site for mobile devices.
 - Make the activity calendar section full width.
 - Make title color primary.
-
-### Blockers / Notes
-- No known blockers.
-
-### Changes
-- Marked the remaining landing-page TODO as complete at the user's request.
-- Ran the production build successfully with `npm run build`.
-
-### Project State
-- All TODO items in `docs/TODO.md` are checked off.
-- The production build completes successfully.
-
-### Completed TODOs
 - Change the landing page completely.
+- Fix mobile view by adding padding.
+- Fix the header menu in mobile view.
 
 ### Blockers / Notes
 - No known blockers.
