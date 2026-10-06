@@ -1,5 +1,6 @@
 {
   "brand": { "name": "Body Planet", "location": "Latina Scalo", "logoAlt": "Logo Body Planet" },
+  "intro": { "loading": "Caricamento Body Planet" },
   "nav": { "gym": "La palestra", "courses": "Corsi", "hours": "Orari", "contact": "Contatti" },
   "hero": {
     "eyebrow": "Palestra e centro fitness",
@@ -7,7 +8,8 @@
     "description": "La Body Planet SSD a RL opera nel settore del fitness con l’obiettivo di offrire un ambiente accogliente, professionale e completo, dove allenamento e benessere si fondono per aiutarti a raggiungere i tuoi obiettivi.",
     "primaryCta": "Contattaci",
     "secondaryCta": "Scopri i corsi",
-    "note": "Viale della Stazione, 285 · Latina Scalo"
+    "note": "Viale della Stazione, 285 · Latina Scalo",
+    "visualLabel": "Move · Focus · Grow"
   },
   "gym": {
     "eyebrow": "L'ambiente",
@@ -79,6 +81,28 @@
   "heroImage": {
     "alt": "Programma delle attività Body Planet"
   },
+  "heroSlides": {
+    "photo01": "Allenamento presso Body Planet",
+    "photo02": "Allenamento presso Body Planet",
+    "photo03": "Allenamento presso Body Planet",
+    "photo04": "Allenamento presso Body Planet",
+    "photo05": "Allenamento presso Body Planet",
+    "photo06": "Allenamento presso Body Planet",
+    "photo07": "Allenamento presso Body Planet",
+    "photo08": "Allenamento presso Body Planet",
+    "photo09": "Allenamento presso Body Planet",
+    "photo10": "Allenamento presso Body Planet",
+    "photo11": "Allenamento presso Body Planet",
+    "photo12": "Allenamento presso Body Planet",
+    "photo13": "Allenamento presso Body Planet",
+    "photo14": "Allenamento presso Body Planet",
+    "photo15": "Allenamento presso Body Planet",
+    "photo16": "Allenamento presso Body Planet",
+    "photo17": "Allenamento presso Body Planet",
+    "photo18": "Allenamento presso Body Planet",
+    "photo19": "Allenamento presso Body Planet",
+    "photo20": "Allenamento presso Body Planet"
+  },
   "documents": {
     "activities": "Scarica le attività",
     "codeOfConduct": "Codice di condotta",
@@ -116,5 +140,5 @@
     "instagram": "Instagram"
   },
   "footer": { "legal": "BODY PLANET SOCIETA' SPORTIVA DILETTANTISTICA A RESPONSABILITA' LIMITATA", "vat": "P. IVA 03304580594", "copyright": "© 2026 Body Planet. Tutti i diritti riservati." },
-  "accessibility": { "openMenu": "Apri il menu", "closeMenu": "Chiudi il menu", "decorativeMark": "" }
+  "accessibility": { "openMenu": "Apri il menu", "closeMenu": "Chiudi il menu", "primaryNav": "Navigazione principale", "decorativeMark": "" }
 }
