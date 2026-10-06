@@ -76,17 +76,92 @@ Omit empty subsections when they provide no useful information.
 
 Do not alter previous entries to correct later discoveries. Record corrections or changed understanding in a new progress entry.
 
-## Same-Day Reports
+## Same-Day Update Rules
 
-If the user requests multiple progress reports on the same calendar day, do not create another date heading.
+There must be only one date heading per calendar day:
 
-If today's date already exists in `docs/PROGRESS.md`, append the new session changes under the existing date.
+## YYYY-MM-DD
 
-Preserve all previously written content under that date.
+Within that date, there must also be only one instance of each subsection:
 
-Do not merge, rewrite, reorder, or summarize earlier entries.
+### Changes
+### Project State
+### Completed TODOs
+### Pending TODOs
+### Blockers / Notes
 
-A new `## YYYY-MM-DD` heading should only be created when today's date does not already exist in the file.
+When the user requests another `progress report` on the same day:
+
+- do not create another date heading;
+- do not create duplicate subsection headings;
+- update the existing subsections for that date.
+
+### Changes
+
+Append new meaningful changes as additional bullet points under the existing `### Changes` section.
+
+Do not delete previous change entries unless the user explicitly asks.
+
+Avoid duplicating the same change twice.
+
+### Project State
+
+`### Project State` represents the current overall state of the project.
+
+On each progress report:
+
+- completely replace the existing content under `### Project State`;
+- describe the latest current state only;
+- do not preserve outdated project-state bullets.
+
+### Completed TODOs
+
+Append newly completed TODOs under the existing `### Completed TODOs` section.
+
+Only include TODOs that:
+
+- were implemented;
+- were explicitly approved by the user;
+- were cleared according to `TODO.md`.
+
+Do not duplicate previously listed completed TODOs.
+
+### Pending TODOs
+
+Update this section to reflect the current pending TODO state.
+
+Remove an item from `### Pending TODOs` when it becomes completed and approved.
+
+Do not leave stale pending items after they have been resolved.
+
+### Blockers / Notes
+
+This section should reflect active blockers and important continuation notes.
+
+Do not duplicate blockers already listed.
+
+If a blocker has been resolved:
+
+- remove or replace the resolved blocker;
+- do not preserve it as an active blocker.
+
+If resolution of a blocker is represented by a completed TODO, the blocker may be removed when that TODO is explicitly approved.
+
+### Update Principle
+
+For same-day progress reports:
+
+- `Changes` → append;
+- `Completed TODOs` → append;
+- `Pending TODOs` → synchronize with current state;
+- `Blockers / Notes` → synchronize with current active blockers;
+- `Project State` → overwrite completely.
+
+Never create duplicate subsection headings within the same date.
+
+Previous dates are immutable.
+
+The current day's entry may be updated according to the rules above.
 
 ## 2026-10-04
 
@@ -127,6 +202,20 @@ A new `## YYYY-MM-DD` heading should only be created when today's date does not 
 - Further adapt the site for mobile devices.
 - Make the activity calendar section full width.
 - Make title color primary.
+
+### Blockers / Notes
+- No known blockers.
+
+### Changes
+- Marked the remaining landing-page TODO as complete at the user's request.
+- Ran the production build successfully with `npm run build`.
+
+### Project State
+- All TODO items in `docs/TODO.md` are checked off.
+- The production build completes successfully.
+
+### Completed TODOs
+- Change the landing page completely.
 
 ### Blockers / Notes
 - No known blockers.

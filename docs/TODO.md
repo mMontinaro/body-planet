@@ -27,4 +27,4 @@ If the user explicitly asks to add, edit, remove, check off, or reorganize a TOD
 - [x] Further adapt the site for mobile devices.
 - [x] make the activity calendar section full width
 - [x] make title color primary
-- change the landing page completely
+- [x] change the landing page completely
