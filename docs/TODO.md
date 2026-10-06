@@ -21,7 +21,9 @@ If the user explicitly asks to add, edit, remove, check off, or reorganize a TOD
 
 ## Pending Tasks
 
-- Make the third hero-grid span completely white.
-- Add logos for Facebook and Instagram social links.
-- Add download buttons for the PDF documents.
-- Further adapt the site for mobile devices.
+- [x] Make the third hero-grid span completely white.
+- [x] Add logos for Facebook and Instagram social links.
+- [x] Add download buttons for the PDF documents underneath activity calendar.
+- [x] Further adapt the site for mobile devices.
+- [x] make the activity calendar section full width
+- [x] make title color primary

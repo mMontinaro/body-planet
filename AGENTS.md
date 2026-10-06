@@ -241,17 +241,19 @@ Never alter previous progress entries.
 
 ## Validation
 
-After meaningful implementation work, perform the relevant available checks.
+Do not run `npm run build` after every change.
 
-At minimum, when appropriate:
+Run `npm run build` only when the user explicitly says:
 
-```text
-npm run build
-```
+`progress report`
 
-Do not claim that a change works if it has not been verified when verification is available.
+At that point:
 
-Report unresolved errors clearly.
+1. run the production build;
+2. report any errors or warnings that require attention;
+3. include the build result in the progress report.
+
+Do not run the build automatically for routine edits unless the user explicitly requests it.
 
 ## Documentation Changes
 

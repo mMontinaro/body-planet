@@ -76,6 +76,18 @@ Omit empty subsections when they provide no useful information.
 
 Do not alter previous entries to correct later discoveries. Record corrections or changed understanding in a new progress entry.
 
+## Same-Day Reports
+
+If the user requests multiple progress reports on the same calendar day, do not create another date heading.
+
+If today's date already exists in `docs/PROGRESS.md`, append the new session changes under the existing date.
+
+Preserve all previously written content under that date.
+
+Do not merge, rewrite, reorder, or summarize earlier entries.
+
+A new `## YYYY-MM-DD` heading should only be created when today's date does not already exist in the file.
+
 ## 2026-10-04
 
 ### Changes
@@ -97,3 +109,24 @@ Do not alter previous entries to correct later discoveries. Record corrections o
 
 ### Blockers / Notes
 - No known blockers; pending items remain subject to implementation and user testing.
+
+## 2026-10-06
+
+### Changes
+- Verified the Facebook and Instagram social logos are implemented in the reusable social-links component and checked off the final TODO.
+- Ran the production build successfully.
+
+### Project State
+- The static Body Planet site builds successfully with `npm run build`.
+- All current TODO items are checked off.
+
+### Completed TODOs
+- Make the third hero-grid span completely white.
+- Add logos for Facebook and Instagram social links.
+- Add download buttons for the PDF documents underneath activity calendar.
+- Further adapt the site for mobile devices.
+- Make the activity calendar section full width.
+- Make title color primary.
+
+### Blockers / Notes
+- No known blockers.

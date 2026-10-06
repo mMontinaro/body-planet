@@ -79,6 +79,11 @@
   "heroImage": {
     "alt": "Programma delle attività Body Planet"
   },
+  "documents": {
+    "activities": "Scarica le attività",
+    "codeOfConduct": "Codice di condotta",
+    "mog": "MOG"
+  },
   "gallery": {
     "eyebrow": "Gli spazi Body Planet",
     "title": "Un ambiente da vivere.",
