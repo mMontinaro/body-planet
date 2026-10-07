@@ -14,8 +14,7 @@
   "gym": {
     "eyebrow": "L'ambiente",
     "title": "Allenamenti per ogni esigenza.",
-    "description": "Body Planet è una palestra che metta al centro la persona, il suo benessere e la sua crescita, fisica e mentale.",
-    "description2": "Body Planet è la tua palestra a Latina Scalo perfetta per te!",
+    "description": "Body Planet è una palestra che metta al centro la persona, il suo benessere e la sua crescita, fisica e mentale. Body Planet è la tua palestra a Latina Scalo perfetta per te!",
     "items": ["Sala isotonica", "Corsi fitness", "Indoor cycling", "Arti marziali"]
   },
   "courses": {
@@ -137,7 +136,9 @@
   "social": {
     "title": "Seguici sui social",
     "facebook": "Facebook",
-    "instagram": "Instagram"
+    "facebookHandle": "Body Planet - Latina",
+    "instagram": "Instagram",
+    "instagramHandle": "@bodyplanet_ssd_latina"
   },
   "footer": { "legal": "BODY PLANET SOCIETA' SPORTIVA DILETTANTISTICA A RESPONSABILITA' LIMITATA", "vat": "P. IVA 03304580594", "copyright": "© 2026 Body Planet. Tutti i diritti riservati." },
   "accessibility": { "openMenu": "Apri il menu", "closeMenu": "Chiudi il menu", "primaryNav": "Navigazione principale", "decorativeMark": "" }

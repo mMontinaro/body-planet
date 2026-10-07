@@ -22,7 +22,7 @@ function ContactSection() {
           </a>
           <a className="contact-card" href={siteLinks.social.instagram} target="_blank" rel="noreferrer">
             <Instagram size={20} aria-hidden="true" />
-            <span><small>{copy.social.instagram}</small><strong>{copy.social.instagram}</strong></span>
+            <span><small>{copy.social.instagram}</small><strong>{copy.social.instagramHandle}</strong></span>
           </a>
           <a className="contact-card" href={siteLinks.maps} target="_blank" rel="noreferrer">
             <MapPin size={20} aria-hidden="true" />
@@ -30,7 +30,7 @@ function ContactSection() {
           </a>
           <a className="contact-card" href={siteLinks.social.facebook} target="_blank" rel="noreferrer">
             <Facebook size={20} aria-hidden="true" />
-            <span><small>{copy.social.facebook}</small><strong>{copy.social.facebook}</strong></span>
+            <span><small>{copy.social.facebook}</small><strong>{copy.social.facebookHandle}</strong></span>
           </a>
           <a className="contact-card" href={siteLinks.phone}>
             <Phone size={20} aria-hidden="true" />
